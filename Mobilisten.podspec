@@ -35,6 +35,7 @@ spec.source = {
   }
 spec.source_files = 'Mobilisten.framework/Headers/*.{h,m,swift}'
 spec.ios.vendored_frameworks = 'Mobilisten.framework'
+spec.preserve_paths = 'Mobilisten.framework'
 spec.social_media_url = "http://zoho.com"
 spec.ios.deployment_target = '9.0'
 spec.requires_arc = true
