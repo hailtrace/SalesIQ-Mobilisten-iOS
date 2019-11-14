@@ -33,6 +33,7 @@ spec.source = {
     "git" => "https://github.com/zoho/SalesIQ-Mobilisten-iOS.git",
     "tag" => "v#{spec.version}"
   }
+spec.frameworks = ["Foundation", "CoreFoundation", "UIKit", "SystemConfiguration", "LiveChatEmbed", "Security"]
 spec.source_files = 'Mobilisten.framework/Headers/*.{h,m,swift}'
 spec.ios.vendored_frameworks = 'Mobilisten.framework'
 spec.preserve_paths = 'Mobilisten.framework'
